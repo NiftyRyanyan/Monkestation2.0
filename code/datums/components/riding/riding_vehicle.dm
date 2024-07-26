@@ -98,6 +98,7 @@
 
 	step(movable_parent, direction)
 	COOLDOWN_START(src, vehicle_move_cooldown, vehicle_move_delay)
+
 	if(QDELETED(src))
 		return
 	handle_vehicle_layer(movable_parent.dir)
